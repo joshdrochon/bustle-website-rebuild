@@ -1,0 +1,33 @@
+.container{
+  max-width: 75%;
+  height: 300px;
+  padding-top: 55px;
+  border: 1px solid pink;
+}
+
+.row{
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid green;
+  width: 100%;
+  background-color: rgb(248,248,248);
+  height: 200px;
+  width: 100%;
+}
+
+.col-md-4{
+  border: 1px solid red;
+  margin: auto;
+  padding: 0px;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(248,248,248);
+}
+
+img{
+  max-width: 90%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+}
+
+/*floating divs converts them to inline elements*/

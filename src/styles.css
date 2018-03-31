@@ -2,14 +2,16 @@
 *{
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 body{
   background-color: whitesmoke !important;
 }
 
-html {
-  margin:0;
-  padding:0;
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 1px solid purple;
+  background-color: rgb(247,247,247);
 }
