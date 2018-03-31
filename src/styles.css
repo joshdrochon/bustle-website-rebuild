@@ -1,7 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.clickable{
+  cursor: pointer;
+}
+
 *{
   margin: 0;
   padding: 0;
+  /* border: 1px solid lightgreen; */
 }
 
 body{
@@ -12,6 +16,6 @@ body{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   background-color: rgb(247,247,247);
 }

@@ -2,32 +2,70 @@
   max-width: 75%;
   height: 300px;
   padding-top: 55px;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .row{
   margin: auto;
   padding: 0px 20px 0px 20px;
-  border: 1px solid green;
   width: 100%;
-  background-color: rgb(248,248,248);
   height: 200px;
   width: 100%;
+  background-color: rgb(248,248,248);
+  /* border: 1px solid green; */
 }
 
 .col-md-4{
-  border: 1px solid red;
   margin: auto;
   padding: 0px;
   height: 100%;
   text-align: center;
   background-color: rgb(248,248,248);
+  /* border: 1px solid red; */
 }
 
-img{
+#stories img{
   max-width: 90%;
   image-rendering: auto;
-  image-rendering: crisp-edges;
+}
+
+.story{
+  margin: auto;
+  padding: 7px;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  /* border: 1px solid green; */
+}
+
+#story{
+  margin: auto;
+  padding: 7px;
+  width: 79%;
+  text-align: center;
+  background-color: white;
+  /* border: 1px solid green; */
+}
+
+#books-banner{
+  width: 75%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#books-banner img{
+  /*inline block lvl elements require display
+  block for margin:auto to center*/
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+p{
+  font-weight: lighter;
+  color: #4a4a4a;
+  font-size: 12px;
+  font-family: helvetica, sans-serif;
 }
 
 /*floating divs converts them to inline elements*/
