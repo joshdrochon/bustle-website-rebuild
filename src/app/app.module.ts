@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CurrentDateComponent } from './current-date/current-date.component';
 import { HomeComponent } from './home/home.component';
+import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     NavbarComponent,
     CurrentDateComponent,
-    HomeComponent
+    HomeComponent,
+    ToggleBarComponent
   ],
   imports: [
     BrowserModule

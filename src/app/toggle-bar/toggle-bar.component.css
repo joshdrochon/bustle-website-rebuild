@@ -1,0 +1,15 @@
+#initially-hidden {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    height: 100vh;
+    width:26%;
+}
+
+#tg-menu{
+  height: 100%;
+}
+
+#tg-menu:hover{
+  cursor: pointer;
+}
