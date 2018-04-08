@@ -18,3 +18,7 @@ body{
   /* border: 1px solid purple; */
   background-color: rgb(247,247,247);
 }
+
+app-root h4{
+  text-align: center;
+}

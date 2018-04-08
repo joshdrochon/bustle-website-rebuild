@@ -1,8 +1,11 @@
-import { User } from './user.model';
-
 export class Comment{
+
+  public timeStamp: Date;
+  public id: string;
+
   constructor(
-    public userId: string,
-    public time: Date
+    public username: string,
+    public subject: string,
+    public body: string
   ){}
 }

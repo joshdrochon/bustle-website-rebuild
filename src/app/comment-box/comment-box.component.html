@@ -1,0 +1,13 @@
+<div id="comment-box" class="container-fluid">
+  <form id="comment-form" action=”” method=”post”>
+    <label>Email</label>
+    <input id="username" type=”username” #username required>
+    <label>Subject</label>
+    <input id="subject" type="text" #subject required>
+    <label>Your comment</label>
+    <textarea id="body" name=”comment” #body required></textarea><br>
+    <button (click)="submitForm(username.value, subject.value, body.value)">Send</button>
+  </form>
+</div>
+
+<!-- (#symbols = template reference variables-->
