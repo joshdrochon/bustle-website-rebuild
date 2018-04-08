@@ -1,13 +1,22 @@
 <div id="comment-box" class="container-fluid">
   <form id="comment-form" action=”” method=”post”>
-    <label>Email</label>
+    <label>Username</label>
     <input id="username" type=”username” #username required>
     <label>Subject</label>
     <input id="subject" type="text" #subject required>
     <label>Your comment</label>
     <textarea id="body" name=”comment” #body required></textarea><br>
-    <button (click)="submitForm(username.value, subject.value, body.value)">Send</button>
+    <button (click)="submitForm(username.value, subject.value, body.value, username.value='', subject.value='', body.value='')">Send</button>
   </form>
+</div>
+
+<div>
+  <hr>
+  <h4>Comments</h4>
+  <div class="container-fluid" *ngFor="let comment of comments">
+    <p>By, {{comment.username}}</p>
+    <h3>{{comment.subject}}</h3>
+    <p>{{comment.body}}</p>
 </div>
 
 <!-- (#symbols = template reference variables-->

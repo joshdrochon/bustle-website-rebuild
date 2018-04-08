@@ -1,22 +1,20 @@
 import { Component } from '@angular/core';
 import { Comment } from '../models/comment.model';
-import { CommentService } from '../comment.service';
 
 @Component({
   selector: 'app-comment-box',
   templateUrl: './comment-box.component.html',
-  styleUrls: ['./comment-box.component.css'],
-  providers: [CommentService]
+  styleUrls: ['./comment-box.component.css']
 })
 export class CommentBoxComponent {
+  
+  constructor(){}
 
-  constructor(private commentService: CommentService){}
-
-  commentList: Comment[] = this.commentService.getComments();
+  comments: Comment[] = [];
 
   submitForm(username: string, subject: string, body: string){
     let newComment: Comment = new Comment(username, subject, body);
-    this.commentList.push(newComment);
+    this.comments.push(newComment);
   }
 
 }
