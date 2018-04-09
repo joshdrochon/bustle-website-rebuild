@@ -7,17 +7,8 @@ import * as $ from 'jquery';
 })
 export class AppComponent {
 
-    constructor()
-    {
-      $(document).ready(function(){
-          $("#test-btn").click(function(){
-              alert('Hello there!');
-          });
-      });
-
+  constructor(){
     var bootstrap_enabled = (typeof $().modal == 'function');
     console.log(bootstrap_enabled);
-
-    }
-
+  }
 }

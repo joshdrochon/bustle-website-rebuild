@@ -1,0 +1,11 @@
+#comment-container{
+  width: 70%;
+  padding: 20px;
+  margin: 20px auto 20px auto;
+  background-color: rgb(235,235,235);
+}
+
+h4{
+  font-weight: lighter;
+  font-family: helvetica;
+}

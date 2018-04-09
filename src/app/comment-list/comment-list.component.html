@@ -1,0 +1,8 @@
+<div>
+  <hr>
+  <h4>Comments</h4>
+  <div id="comment-container" class="container-fluid" *ngFor="let comment of comments | async">
+    <p>By, {{comment.username}}</p>
+    <h5>{{comment.subject}}</h5>
+    <p>{{comment.body}}</p>
+</div>
