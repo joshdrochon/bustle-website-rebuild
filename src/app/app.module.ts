@@ -9,7 +9,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CurrentDateComponent } from './current-date/current-date.component';
 import { HomeComponent } from './home/home.component';
 import { ToggleBarComponent } from './toggle-bar/toggle-bar.component';
 import { CommentBoxComponent } from './comment-box/comment-box.component';
@@ -26,7 +25,6 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     NavbarComponent,
-    CurrentDateComponent,
     HomeComponent,
     ToggleBarComponent,
     CommentBoxComponent,
